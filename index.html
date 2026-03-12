@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa das Debutantes - Aluguel de Roupas de Festa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="container">
+            <h1><strong>Casa das Debutantes</strong></h1>
+            <p>Aluguel de Roupas de Festa para Debutantes, Casamentos, Aniversários e Eventos Especiais</p>
+            <div class="contact-info">
+                <a href="https://wa.me/65996483882" target="_blank" class="whatsapp">
+                    <span>📲 WhatsApp: 65 9964883882</span>
+                </a>
+                <a href="https://www.instagram.com/casadasdebutantes/?utm_source=ig_web_button_share_sheet" target="_blank" class="instagram">
+                    <span>📸 Instagram: @casa_das_debutantes</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEÇÃO DE BEM-VINDO -->
+    <section class="hero">
+        <div class="container">
+            <h2>Bem-vinda, Debutante!</h2>
+            <p>Seu dia especial merece a melhor roupa. Alugue com estilo, conforto e segurança.</p>
+            <a href="#catalogo" class="btn-primary">Ver Catálogo</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DO CATÁLOGO -->
+    <section id="catalogo" class="catalogo">
+        <div class="container">
+            <h2>✨ Catálogo de Roupas</h2>
+            <div class="catalogo-grid">
+                <!-- Exemplo de roupa -->
+                <div class="item">
+                    <img src="imagens/roupa1.jpg" alt="Roupas de Festa" width="100%">
+                    <h3>Roupas de Festa para Debutantes</h3>
+                    <p>Estilo elegante e moderno. Ideal para casamentos e eventos formais.</p>
+                    <a href="#contato" class="btn-secondary">Alugar Agora</a>
+                </div>
+                <!-- Adicione mais itens conforme necessário -->
+                <div class="item">
+                    <img src="imagens/roupa2.webp" alt="Roupas de Festa" width="100%">
+                    <h3>Roupas de Festa com Estilo</h3>
+                    <p>Com decote delicado e detalhes que destacam a beleza da sua primeira festa.</p>
+                    <a href="#contato" class="btn-secondary">Alugar Agora</a>
+                </div>
+                <div class="item">
+                    <img src="imagens/roupa3.jpg" alt="Roupas de Festa" width="100%">
+                    <h3>Roupas de Festa com Estilo</h3>
+                    <p>Com decote delicado e detalhes que destacam a beleza da sua primeira festa.</p>
+                    <a href="#contato" class="btn-secondary">Alugar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>📞 Entre em Contato</h2>
+            <form id="contactForm">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="data">Data do Evento:</label>
+                <input type="date" id="data" name="data" required>
+                <label for="quantidade">Quantidade de Roupas:</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" value="1">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="O que você precisa?"></textarea>
+                <button type="submit" class="btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE INFORMAÇÕES -->
+    <section class="info">
+        <div class="container">
+            <h2>📌 Informações Importantes</h2>
+            <ul>
+                <li>✅ Roupas em bom estado, com garantia de qualidade</li>
+                <li>✅ Entrega em casa ou no local do evento</li>
+                <li>✅ Devolução e troca com segurança</li>
+                <li>✅ Preço acessível e com descontos por preenchimento do formulário</li>
+                <li>✅ Suporte 24/7 pelo WhatsApp</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Casa das Debutantes — Aluguel de Roupas de Festa | WhatsApp: 65 996483882</p>
+            <p>Instagram: <a href="https://instagram.com/casa_das_debutantes" target="_blank">@casa_das_debutantes</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript para formularios -->
+    <script src="script.js"></script>
+</body>
+</html>
